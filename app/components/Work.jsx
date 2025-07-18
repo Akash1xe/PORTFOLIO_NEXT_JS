@@ -1,5 +1,6 @@
 import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Work = () => {
@@ -15,6 +16,7 @@ const Work = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5">
         {workData.map((project, index) => (
+           <a target="_blank" key={index} href={project.link} >
           <div
             key={index}
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
@@ -37,6 +39,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+           </a>
         ))}
       </div>
     </div>

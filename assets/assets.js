@@ -36,6 +36,7 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import ytclone from "./ytclone.png";
 
 
 
@@ -80,6 +81,7 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  ytclone,
   
 };
 
@@ -88,12 +90,30 @@ export const workData = [
     title: "ChatBot",
     description: "Functionality design",
     bgImage: '/botproject.png',
+    link:"https://chatbot-one-lac-80.vercel.app/"
   },
   {
     title: "Image Search App",
     description: "Search Image",
     bgImage: "/ImageSearch.jpg",
+    link:""
   },
+
+  {
+  title: "YouTube Clone",
+  description: "A fully responsive clone of YouTube built using React and modern UI libraries.",
+  bgImage: "/ytclone.png", // Using imported asset instead of string path
+  link: "https://yt-clone-reactjs-5lhz.vercel.app/" // add your deployed project or GitHub link here
+},
+
+{
+  title: "More Projects",
+  description: "Explore more of my projects on GitHub.",
+  bgImage: "/moreprojects.jpg",
+  link: "https://github.com/Akash1xe?tab=repositories" // add your GitHub link here
+}
+
+
 
   
 ];
@@ -146,6 +166,9 @@ export const infoList = [
     title: "Projects",
     description: "Built more than 5 projects",
   },
+
+
+
 ];
 
 export const toolsData = [
