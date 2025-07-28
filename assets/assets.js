@@ -37,6 +37,7 @@ import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import ytclone from "./ytclone.png";
+ // import akashResume from "./AkashResume.pdf";
 
 
 
